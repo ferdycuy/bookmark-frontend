@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://bookmark-backend.railway.app/api',
+  baseURL: 'bookmark-backend-production-76cd.up.railway.app/api',
   withCredentials: true
 });
 
